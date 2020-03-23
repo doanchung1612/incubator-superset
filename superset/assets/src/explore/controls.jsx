@@ -563,7 +563,7 @@ export const controls = {
   select_country: {
     type: 'SelectControl',
     label: t('Country Name'),
-    default: 'France',
+    default: 'VietNam',
     choices: [
       'Belgium',
       'Brazil',
@@ -587,6 +587,7 @@ export const controls = {
       'Uk',
       'Ukraine',
       'Usa',
+      'VietNam',
       'Zambia',
     ].map(s => [s, s]),
     description: t('The name of the country that Superset should display'),
